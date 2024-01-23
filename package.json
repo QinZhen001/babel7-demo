@@ -1,0 +1,22 @@
+{
+  "name": "babel7-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/QinZhen001/babel7-demo.git",
+  "author": "qinzhen <qz519189636@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx babel src/index.js -o dist/index.js"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.23.4",
+    "@babel/runtime":"^7.23.4",
+    "core-js":"^3.35.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.4",
+    "@babel/preset-env": "^7.23.4",
+    "@babel/plugin-transform-runtime": "^7.23.7"
+  }
+}
