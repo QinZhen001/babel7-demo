@@ -6,7 +6,7 @@
   "author": "qinzhen <qz519189636@qq.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npx babel src/index.js -o dist/index.js"
+    "build": "babel src/index.js -o dist/index.js"
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.23.4"
@@ -14,10 +14,7 @@
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.4",
-    "@babel/preset-env": "^7.23.4",
-    "@babel/plugin-transform-runtime": "^7.23.7"
-  },
-  "browserslist": [
-    "fully supports es5"
-  ]
+    "@babel/plugin-transform-runtime": "^7.23.7",
+    "@babel/preset-env": "^7.23.4"
+  }
 }

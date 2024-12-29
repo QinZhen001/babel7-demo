@@ -1101,9 +1101,9 @@ browserslist@^4.22.2:
     update-browserslist-db "^1.0.13"
 
 caniuse-lite@^1.0.30001565:
-  version "1.0.30001579"
-  resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001579.tgz#45c065216110f46d6274311a4b3fcf6278e0852a"
-  integrity sha512-u5AUVkixruKHJjw/pj9wISlcMpgFWzSrczLZbrqBSxukQixmg0SJ5sZTpvaFvxU0HoQKd4yoyAogyrAz9pzJnA==
+  version "1.0.30001690"
+  resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001690.tgz"
+  integrity sha512-5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==
 
 chalk@^2.4.2:
   version "2.4.2"
