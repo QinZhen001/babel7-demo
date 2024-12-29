@@ -4,17 +4,11 @@
 
 babel7-demo
 
-可以将下面的 .babelrc  内容替换 运行 build 命令，查看dist输出文件，对比差异
+可以将下面的 .babelrc 内容替换 运行 build 命令，查看 dist 输出文件，对比差异
 
-
-
-
-
-## .babelrc 
+## .babelrc
 
 `@babel/preset-env`和`plugin-transform-runtime`二者都可以设置使用`corejs`来处理`polyfill`，二者各有使用场景，在项目开发和类库开发的时候可以使用不同的配置。
-
-
 
 ### 真实项目
 
@@ -49,8 +43,6 @@ babel7-demo
 }
 ```
 
-
-
 ### 第三方库
 
 **不需要 安装 core-js**
@@ -80,19 +72,9 @@ babel7-demo
 }
 ```
 
-
-
-
-
-
-
 ## @babel/preset-env
 
 [https://babeljs.io/docs/babel-preset-env#install](https://babeljs.io/docs/babel-preset-env#install)
-
-
-
-
 
 ### debug
 
@@ -101,8 +83,6 @@ babel7-demo
 Outputs to `console.log` the polyfills and transform plugins enabled by `preset-env` and, if applicable, which one of your targets that needed it.
 
 打印出来相关的 polyfills and transform plugins
-
-
 
 ### useBuiltIns
 
@@ -120,13 +100,7 @@ When either the `usage` or `entry` options are used, `@babel/preset-env` will ad
 yarn add core-js@3
 ```
 
-
-
-
-
 ## @babel/plugin-transform-runtime
-
-
 
 ### default options
 
@@ -149,9 +123,11 @@ yarn add core-js@3
 }
 ```
 
+### @babel/runtime-corejs3
 
+> 需要安装在 dependencies
+> 它是 `@babel/runtime` 的升级版，它不仅仅包含 `@babel/runtime` 的所有内容，还包含 3 号主版本的 `core-js` 。
 
 ### polyfill
 
 **TIP: This option was removed in v7.**
-
